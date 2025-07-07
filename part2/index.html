@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="temple" class="templeall">
+        <div class="carousel-controls">
+            <label>
+                Columns:
+                <select id="columnSelect">
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
+            <label>
+                <input type="checkbox" id="autoplayToggle" checked>
+                Autoplay
+            </label>
+        </div>
+        <div class="carousel-track">
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="https://shop-image.readyplanet.com/gWyWU8Ysv71zKqgFT-zzI2foJAg=/6e89ee0472af4efb96ddac4a4c66e1ea" alt="Wat 1">
+                <div class="caption">ภาคกลาง</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="https://s359.kapook.com/pagebuilder/55049c16-3575-4da6-9853-b022ca4cc0a0.jpg" alt="Wat 2">
+                <div class="caption">ภาคเหนือ</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="https://www.agoda.com/wp-content/uploads/2024/05/Wat-Bang-Tong-Krabi-Thailand.jpg" alt="Wat 3">
+                <div class="caption">ภาคใต้</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="https://s359.kapook.com/pagebuilder/c8fa9865-66ff-4570-b438-1020f6fbef2a.jpg" alt="Wat 4">
+                <div class="caption">ภาคตะวันออกเฉียงเหนือ</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="https://s.isanook.com/tr/0/ud/198/991469/img_7553.jpg" alt="Wat 5">
+                <div class="caption">ภาคตะวันออกเฉียงใต้</div>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <button id="prevBtn">&#8592;</button>
+            <button id="nextBtn">&#8594;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
